@@ -1,0 +1,20 @@
+    1  conda activate dev
+    2  git config --global user.name BP
+    3  git config --global user.email barispeace.it@gmail.com
+    4  git config --list
+    5  git clone https://github.com/barishpeace/loan_qualifier_app.git
+    6  git status
+    7  ls
+    8  cd loan_qualifier_app
+    9  git status
+   10  git status
+   11  git add
+   12  git add app.py
+   13  git add data/
+   14  git add images/
+   15  git add qualifier/
+   16  git status
+   17  git commit -m "Module02 Challange committed"
+   18  git status
+   19  git push
+   20  history 50 > terminal_history.txt
